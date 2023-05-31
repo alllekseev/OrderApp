@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		2A035FC42A248E7100B12E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FC32A248E7100B12E1C /* AppDelegate.swift */; };
 		2A035FC62A248E7100B12E1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FC52A248E7100B12E1C /* SceneDelegate.swift */; };
-		2A035FC82A248E7100B12E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FC72A248E7100B12E1C /* ViewController.swift */; };
 		2A035FCB2A248E7100B12E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A035FC92A248E7100B12E1C /* Main.storyboard */; };
 		2A035FCD2A248E7200B12E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A035FCC2A248E7200B12E1C /* Assets.xcassets */; };
 		2A035FD02A248E7200B12E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A035FCE2A248E7200B12E1C /* LaunchScreen.storyboard */; };
+		2A035FDB2A2492F200B12E1C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FDA2A2492F200B12E1C /* CategoryTableViewController.swift */; };
+		2A035FDD2A24933400B12E1C /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FDC2A24933400B12E1C /* MenuTableViewController.swift */; };
+		2A035FDF2A24934300B12E1C /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FDE2A24934300B12E1C /* OrderTableViewController.swift */; };
+		2A035FE12A2494E700B12E1C /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FE02A2494E700B12E1C /* MenuItemDetailViewController.swift */; };
+		2A035FE32A2495A600B12E1C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FE22A2495A600B12E1C /* MenuItem.swift */; };
+		2A035FE52A24975700B12E1C /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FE42A24975700B12E1C /* ResponseModels.swift */; };
+		2A035FE72A24988400B12E1C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FE62A24988400B12E1C /* Order.swift */; };
+		2A035FEB2A249C8A00B12E1C /* MenuControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FEA2A249C8A00B12E1C /* MenuControler.swift */; };
+		2A035FEE2A2507B600B12E1C /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FED2A2507B600B12E1C /* OrderConfirmationViewController.swift */; };
+		2A035FF02A26255600B12E1C /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FEF2A26255600B12E1C /* MenuItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A035FC02A248E7100B12E1C /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A035FC32A248E7100B12E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A035FC52A248E7100B12E1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A035FC72A248E7100B12E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A035FCA2A248E7100B12E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A035FCC2A248E7200B12E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A035FCF2A248E7200B12E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A035FD12A248E7200B12E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A035FDA2A2492F200B12E1C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryTableViewController.swift; path = OrderApp/Main/Views/CategoryTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		2A035FDC2A24933400B12E1C /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		2A035FDE2A24934300B12E1C /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		2A035FE02A2494E700B12E1C /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		2A035FE22A2495A600B12E1C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		2A035FE42A24975700B12E1C /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		2A035FE62A24988400B12E1C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2A035FEA2A249C8A00B12E1C /* MenuControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControler.swift; sourceTree = "<group>"; };
+		2A035FED2A2507B600B12E1C /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderConfirmationViewController.swift; path = OrderApp/Main/OrderConfirmationViewController.swift; sourceTree = SOURCE_ROOT; };
+		2A035FEF2A26255600B12E1C /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,72 @@
 		2A035FC22A248E7100B12E1C /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A035FD72A248F2B00B12E1C /* Application */,
+				2A035FD82A248F5200B12E1C /* Resources */,
+				2A035FD92A248F7100B12E1C /* Main */,
+			);
+			path = OrderApp;
+			sourceTree = "<group>";
+		};
+		2A035FD72A248F2B00B12E1C /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				2A035FC32A248E7100B12E1C /* AppDelegate.swift */,
 				2A035FC52A248E7100B12E1C /* SceneDelegate.swift */,
-				2A035FC72A248E7100B12E1C /* ViewController.swift */,
-				2A035FC92A248E7100B12E1C /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2A035FD82A248F5200B12E1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2A035FCC2A248E7200B12E1C /* Assets.xcassets */,
 				2A035FCE2A248E7200B12E1C /* LaunchScreen.storyboard */,
 				2A035FD12A248E7200B12E1C /* Info.plist */,
 			);
-			path = OrderApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A035FD92A248F7100B12E1C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A035FC92A248E7100B12E1C /* Main.storyboard */,
+				2A035FE82A2498FF00B12E1C /* Models */,
+				2A035FEC2A249C9200B12E1C /* Views */,
+				2A035FE92A249A3400B12E1C /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A035FE82A2498FF00B12E1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A035FE42A24975700B12E1C /* ResponseModels.swift */,
+				2A035FE62A24988400B12E1C /* Order.swift */,
+				2A035FE22A2495A600B12E1C /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A035FE92A249A3400B12E1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A035FEA2A249C8A00B12E1C /* MenuControler.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A035FEC2A249C9200B12E1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A035FED2A2507B600B12E1C /* OrderConfirmationViewController.swift */,
+				2A035FDA2A2492F200B12E1C /* CategoryTableViewController.swift */,
+				2A035FDC2A24933400B12E1C /* MenuTableViewController.swift */,
+				2A035FEF2A26255600B12E1C /* MenuItemCell.swift */,
+				2A035FDE2A24934300B12E1C /* OrderTableViewController.swift */,
+				2A035FE02A2494E700B12E1C /* MenuItemDetailViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A035FC82A248E7100B12E1C /* ViewController.swift in Sources */,
+				2A035FE32A2495A600B12E1C /* MenuItem.swift in Sources */,
+				2A035FDD2A24933400B12E1C /* MenuTableViewController.swift in Sources */,
+				2A035FE52A24975700B12E1C /* ResponseModels.swift in Sources */,
+				2A035FE72A24988400B12E1C /* Order.swift in Sources */,
+				2A035FDF2A24934300B12E1C /* OrderTableViewController.swift in Sources */,
+				2A035FEB2A249C8A00B12E1C /* MenuControler.swift in Sources */,
 				2A035FC42A248E7100B12E1C /* AppDelegate.swift in Sources */,
 				2A035FC62A248E7100B12E1C /* SceneDelegate.swift in Sources */,
+				2A035FDB2A2492F200B12E1C /* CategoryTableViewController.swift in Sources */,
+				2A035FF02A26255600B12E1C /* MenuItemCell.swift in Sources */,
+				2A035FEE2A2507B600B12E1C /* OrderConfirmationViewController.swift in Sources */,
+				2A035FE12A2494E700B12E1C /* MenuItemDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H94WDCFCK6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OrderApp/Info.plist;
+				INFOPLIST_FILE = OrderApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +401,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H94WDCFCK6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OrderApp/Info.plist;
+				INFOPLIST_FILE = OrderApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
