@@ -12,6 +12,12 @@ class OrderTableViewController: UITableViewController {
     
     var minutesToPrepareOrder = 0
     var imageLoadTasks: [IndexPath: Task<Void, Never>] = [:]
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        MenuController.shared.updateUserActivity(with: .order)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -153,7 +159,7 @@ class OrderTableViewController: UITableViewController {
             self.uploadOrder()
         }))
         
-        alertController.addAction(UIAlertAction(title: "Cansel", style: .cancel, handler: nil))
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         
         present(alertController, animated: true, completion: nil)
     }

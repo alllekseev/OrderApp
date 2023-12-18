@@ -10,6 +10,11 @@ import UIKit
 @MainActor
 class CategoryTableViewController: UITableViewController {
     var categories = [String]()
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        MenuController.shared.updateUserActivity(with: .categories)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

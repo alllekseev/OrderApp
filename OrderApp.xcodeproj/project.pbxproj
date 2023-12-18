@@ -22,6 +22,8 @@
 		2A035FEB2A249C8A00B12E1C /* MenuControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FEA2A249C8A00B12E1C /* MenuControler.swift */; };
 		2A035FEE2A2507B600B12E1C /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FED2A2507B600B12E1C /* OrderConfirmationViewController.swift */; };
 		2A035FF02A26255600B12E1C /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A035FEF2A26255600B12E1C /* MenuItemCell.swift */; };
+		2A6B4B852B30584400A70985 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B842B30584400A70985 /* .gitignore */; };
+		2A7DD3A92A274D8C00A7FD98 /* Restoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD3A82A274D8C00A7FD98 /* Restoration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		2A035FEA2A249C8A00B12E1C /* MenuControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControler.swift; sourceTree = "<group>"; };
 		2A035FED2A2507B600B12E1C /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderConfirmationViewController.swift; path = OrderApp/Main/OrderConfirmationViewController.swift; sourceTree = SOURCE_ROOT; };
 		2A035FEF2A26255600B12E1C /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		2A6B4B842B30584400A70985 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2A7DD3A82A274D8C00A7FD98 /* Restoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Restoration.swift; path = OrderApp/Main/Views/Restoration.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		2A035FB72A248E7100B12E1C = {
 			isa = PBXGroup;
 			children = (
+				2A6B4B842B30584400A70985 /* .gitignore */,
 				2A035FC22A248E7100B12E1C /* OrderApp */,
 				2A035FC12A248E7100B12E1C /* Products */,
 			);
@@ -114,6 +119,7 @@
 		2A035FE82A2498FF00B12E1C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2A7DD3A82A274D8C00A7FD98 /* Restoration.swift */,
 				2A035FE42A24975700B12E1C /* ResponseModels.swift */,
 				2A035FE62A24988400B12E1C /* Order.swift */,
 				2A035FE22A2495A600B12E1C /* MenuItem.swift */,
@@ -200,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6B4B852B30584400A70985 /* .gitignore in Resources */,
 				2A035FD02A248E7200B12E1C /* LaunchScreen.storyboard in Resources */,
 				2A035FCD2A248E7200B12E1C /* Assets.xcassets in Resources */,
 				2A035FCB2A248E7100B12E1C /* Main.storyboard in Resources */,
@@ -223,6 +230,7 @@
 				2A035FC62A248E7100B12E1C /* SceneDelegate.swift in Sources */,
 				2A035FDB2A2492F200B12E1C /* CategoryTableViewController.swift in Sources */,
 				2A035FF02A26255600B12E1C /* MenuItemCell.swift in Sources */,
+				2A7DD3A92A274D8C00A7FD98 /* Restoration.swift in Sources */,
 				2A035FEE2A2507B600B12E1C /* OrderConfirmationViewController.swift in Sources */,
 				2A035FE12A2494E700B12E1C /* MenuItemDetailViewController.swift in Sources */,
 			);

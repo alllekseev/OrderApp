@@ -13,15 +13,18 @@ class MenuController {
     static let shared = MenuController()
     
     typealias MinutesToPrepare = Int
+    var userActivity = NSUserActivity(activityType: "com.alekseev.oleg.OrderApp")
     
     var order = Order() {
         didSet {
             NotificationCenter.default.post(name: MenuController.orderUpdatedNotification, object: nil)
+            userActivity.order = order
         }
     }
     
     static let orderUpdatedNotification = Notification.Name("MenuController.orderUpdated")
     
+    // MARK: - Network connection
     let baseURL = URL(string: "http://127.0.0.1:8080/")!
     
     func fetchCategories() async throws -> [String] {
@@ -96,6 +99,20 @@ class MenuController {
         }
         
         return image
+    }
+    
+    // MARK: - State Restoration
+    func updateUserActivity(with controller: StateRestorationController) {
+        switch controller {
+        case .menu(let category):
+            userActivity.menuCategory = category
+        case .menuItemDetail(let menuItem):
+            userActivity.menuItem = menuItem
+        case .order, .categories:
+            break
+        }
+        
+        userActivity.controllerIdentifier = controller.identifier
     }
 }
 
